@@ -10,7 +10,7 @@ const posts = [
         caption: 'Sunset'
     },
     {
-        id:'123',
+        id:'1234',
         username: "kwongz",
         userImg:"http://www.sherrida.com/divisions/photos/2315/bigs/p_118645_1727125192.jpg",
         img: 'https://images.pexels.com/photos/6477259/pexels-photo-6477259.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
