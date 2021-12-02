@@ -21,6 +21,13 @@ function Stories() {
             })
             .then(res => {
                 setSuggestions(res.data)})
+            .catch(error => {
+                if (error.response.status === 429){
+                    alert('Too many API attempts, please try again alter')
+                } else {
+                    console.log(error) 
+                }
+            })
     }, [])
 
     
